@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="John Mark Mediano - Web Developer Portfolio">
+    <title>John Mark Mediano | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">JMM</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-sphere sphere-1"></div>
+            <div class="gradient-sphere sphere-2"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="greeting reveal">Hello, I'm</p>
+                    <h1 class="reveal">John Mark <span class="gradient-text">Mediano</span></h1>
+                    <div class="typing-container reveal">
+                        <span class="static-text">I'm a </span>
+                        <span class="dynamic-text" id="typing-text"></span>
+                        <span class="cursor-blink">|</span>
+                    </div>
+                    <p class="hero-description reveal">
+                        Crafting digital experiences through clean code and creative solutions. 
+                        Specializing in building communication platforms that connect people.
+                    </p>
+                    <div class="hero-buttons reveal">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                        </a>
+                    </div>
+                    <div class="social-links reveal">
+                        <a href="https://github.com/johnmarkmediano" target="_blank" class="social-icon" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/johnmarkmediano" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://twitter.com/johnmarkmediano" target="_blank" class="social-icon" aria-label="Twitter">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="mailto:johnmarkmediano12345@gmail.com" class="social-icon" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal">
+                    <div class="profile-frame">
+                        <div class="profile-placeholder">
+                            <img src="images/profile.jpg" alt="John Mark Mediano">
+                        </div>
+                    </div>
+                    <div class="floating-badge badge-1">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="floating-badge badge-3">
+                        <i class="fab fa-js"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <p>Scroll Down</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">
+                    <span class="section-number">01.</span> About Me
+                </h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text reveal">
+                    <p class="about-intro">
+                        Hey there! I'm <span class="highlight">John Mark</span>, a passionate web developer 
+                        based in the Philippines. I thrive on turning complex problems into elegant, 
+                        user-friendly digital solutions.
+                    </p>
+                    <p>
+                        My journey in web development started with a curiosity about how things work 
+                        on the internet. That curiosity evolved into a full-blown passion for creating 
+                        websites that not only look great but also perform exceptionally well.
+                    </p>
+                    <p>
+                        Currently, I specialize in building <span class="highlight">communication platforms</span> 
+                        that bridge gaps between people and technology. I believe that great communication 
+                        tools can transform how we connect, collaborate, and share ideas.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me exploring new technologies, contributing 
+                        to open-source projects, or enjoying a good cup of coffee while brainstorming 
+                        the next big idea.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="2">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="15">0</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="10">0</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image reveal">
+                    <div class="about-img-wrapper">
+                        <div class="about-img-placeholder">
+                            <img src="images/profile.jpg" alt="John Mark Mediano">
+                        </div>
+                        <div class="about-img-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">
+                    <span class="section-number">02.</span> Featured Projects
+                </h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Main Project: Communication Website -->
+                <div class="project-card featured reveal">
+                    <div class="project-content">
+                        <p class="project-label">Featured Project</p>
+                        <h3 class="project-title">Communication Platform</h3>
+                        <div class="project-description">
+                            <p>
+                                A real-time communication website designed to facilitate seamless 
+                                interaction between users. Built with modern web technologies to 
+                                ensure fast, reliable, and intuitive messaging experiences.
+                            </p>
+                        </div>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>WebSockets</span>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="View Live">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Live Demo</span>
+                            </a>
+                            <a href="#" class="project-link" aria-label="View Code">
+                                <i class="fab fa-github"></i>
+                                <span>Source Code</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <div class="project-img-placeholder">
+                            <i class="fas fa-comments"></i>
+                            <span>Communication Platform</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card reveal">
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Dashboard</h3>
+                        <div class="project-description">
+                            <p>
+                                An intuitive admin dashboard for managing online stores. 
+                                Features include inventory tracking, order management, 
+                                and sales analytics.
+                            </p>
+                        </div>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Chart.js</span>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card reveal">
+                    <div class="project-content">
+                        <h3 class="project-title">Task Management App</h3>
+                        <div class="project-description">
+                            <p>
+                                A collaborative task management tool with real-time updates, 
+                                drag-and-drop functionality, and team workflow optimization.
+                            </p>
+                        </div>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Vuex</span>
+                            <span>REST API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="container">
+        <div class="section-header reveal">
+            <h2 class="section-title">
+                <span class="section-number">03.</span> Skills & Expertise
+            </h2>
+            <div class="section-line"></div>
+        </div>
+        
+        <div class="skills-content reveal">
+            
+            <!-- Technical Skills - Paragraph Form -->
+            <div class="skills-category">
+                <h3><i class="fas fa-laptop-code"></i> Technical Skills</h3>
+                <div class="skills-paragraph">
+                    <p>
+                        My development journey is built on a strong foundation of 
+                        <span class="skill-highlight">HTML5</span> and 
+                        <span class="skill-highlight">CSS3</span>, crafting semantic, 
+                        accessible markup with modern layouts using Flexbox and Grid. 
+                        I bring interfaces to life with 
+                        <span class="skill-highlight">JavaScript</span> (ES6+), 
+                        building dynamic, interactive experiences. On the frontend, 
+                        I work extensively with <span class="skill-highlight">React.js</span>, 
+                        leveraging hooks, context API, and component-based architecture 
+                        to create scalable applications.
+                    </p>
+                    <p>
+                        On the backend, I build robust APIs and server-side applications 
+                        using <span class="skill-highlight">Node.js</span> and 
+                        <span class="skill-highlight">Express.js</span>, with data 
+                        persistence handled through <span class="skill-highlight">MongoDB</span> 
+                        and <span class="skill-highlight">PostgreSQL</span>. I'm experienced 
+                        with <span class="skill-highlight">RESTful API</span> design, 
+                        authentication systems, and real-time communication using 
+                        <span class="skill-highlight">WebSockets</span>.
+                    </p>
+                    <p>
+                        My toolkit includes <span class="skill-highlight">Git</span> for 
+                        version control, <span class="skill-highlight">VS Code</span> as 
+                        my primary editor, and <span class="skill-highlight">Figma</span> 
+                        for design collaboration. I work comfortably with 
+                        <span class="skill-highlight">Docker</span> for containerization, 
+                        <span class="skill-highlight">Postman</span> for API testing, and 
+                        <span class="skill-highlight">Firebase</span> for rapid prototyping 
+                        and deployment.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soft Skills - Interactive Cards -->
+            <div class="skills-category">
+                <h3><i class="fas fa-star"></i> Soft Skills</h3>
+                <p class="soft-skills-instruction">Click each card to learn more</p>
+                <div class="soft-skills-interactive">
+                    
+                    <div class="soft-skill-card" data-skill="communication">
+                        <div class="skill-card-front">
+                            <i class="fas fa-comments"></i>
+                            <span>Communication</span>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>I excel at translating complex technical concepts into clear, understandable language for clients and team members. Whether it's writing documentation, presenting ideas, or facilitating discussions, effective communication is at the core of every successful project I deliver.</p>
+                        </div>
+                    </div>
+
+                    <div class="soft-skill-card" data-skill="collaboration">
+                        <div class="skill-card-front">
+                            <i class="fas fa-users"></i>
+                            <span>Team Collaboration</span>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>Working in agile environments has taught me the value of cross-functional teamwork. I thrive in collaborative settings, actively contributing to code reviews, pair programming sessions, and sprint planning while remaining open to feedback and different perspectives.</p>
+                        </div>
+                    </div>
+
+                    <div class="soft-skill-card" data-skill="problem-solving">
+                        <div class="skill-card-front">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>I approach challenges methodically—breaking down complex problems into manageable pieces, researching solutions, and iterating until I find the most elegant approach. Debugging isn't frustrating to me; it's an opportunity to understand systems more deeply.</p>
+                        </div>
+                    </div>
+
+                    <div class="soft-skill-card" data-skill="time-management">
+                        <div class="skill-card-front">
+                            <i class="fas fa-clock"></i>
+                            <span>Time Management</span>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>Juggling multiple projects requires discipline. I prioritize tasks effectively, set realistic milestones, and use tools to track progress. Meeting deadlines without sacrificing quality is a habit I've cultivated through experience.</p>
+                        </div>
+                    </div>
+
+                    <div class="soft-skill-card" data-skill="adaptability">
+                        <div class="skill-card-front">
+                            <i class="fas fa-sync-alt"></i>
+                            <span>Adaptability</span>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>The tech landscape evolves rapidly, and I embrace change. Whether it's learning a new framework, adapting to shifting project requirements, or troubleshooting unexpected issues, I remain flexible and solutions-oriented.</p>
+                        </div>
+                    </div>
+
+                    <div class="soft-skill-card" data-skill="creativity">
+                        <div class="skill-card-front">
+                            <i class="fas fa-paint-brush"></i>
+                            <span>Creativity</span>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>I see coding as a creative discipline. From designing intuitive user interfaces to crafting elegant code architecture, I bring imaginative thinking to every project. Finding unconventional solutions to common problems is one of my greatest strengths.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Tools - Paragraph Form -->
+            <div class="skills-category">
+                <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                <div class="skills-paragraph">
+                    <p>
+                        My daily workflow revolves around 
+                        <span class="skill-highlight">VS Code</span> with carefully 
+                        curated extensions for maximum productivity. I manage code 
+                        with <span class="skill-highlight">Git</span> and collaborate 
+                        through <span class="skill-highlight">GitHub</span>, following 
+                        clean branching strategies and meaningful commit practices. 
+                        For design handoffs, I work with <span class="skill-highlight">Figma</span> 
+                        to translate mockups into pixel-perfect interfaces. I use 
+                        <span class="skill-highlight">Postman</span> for API testing, 
+                        <span class="skill-highlight">Docker</span> for consistent 
+                        development environments, and <span class="skill-highlight">Firebase</span> 
+                        for authentication, hosting, and real-time database needs. 
+                        Terminal proficiency with <span class="skill-highlight">Bash</span> 
+                        and <span class="skill-highlight">npm</span> rounds out my 
+                        technical toolkit.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">
+                    <span class="section-number">04.</span> Get In Touch
+                </h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content reveal">
+                <div class="contact-info">
+                    <h3>Let's Build Something Together</h3>
+                    <p>
+                        I'm currently available for freelance work and interesting projects. 
+                        Whether you have a project in mind or just want to chat about web 
+                        development, feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:johnmarkmediano12345@gmail.com">johnmarkmediano12345@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Philippines</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Status</h4>
+                                <p class="status-available">Available for opportunities</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" required placeholder=" ">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required placeholder=" ">
+                            <label for="email">Your Email</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder=" ">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="6" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home">JMM</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/johnmarkmediano" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/johnmarkmediano" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/johnmarkmediano" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 John Mark Mediano. Built with <i class="fas fa-heart"></i> and caffeine.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
