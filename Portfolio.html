@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>John Mark Mediano – Portfolio</title>
+    <meta
+      name="description"
+      content="John Mark Mediano is a Philippines-based web developer creating responsive websites and web applications."
+    />
+    <meta name="theme-color" content="#0e0e10" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="John Mark Mediano | Web Developer" />
+    <meta
+      property="og:description"
+      content="Responsive websites and web applications by John Mark Mediano."
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="Portfolio.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content-start">Skip to content</a>
+    <svg class="svg-defs" width="0" height="0" aria-hidden="true">
+      <defs>
+        <symbol id="home-icon" viewBox="0 0 24 24">
+          <path d="M3 11l9-8 9 8M5 10v10h14V10" />
+        </symbol>
+        <symbol id="folder" viewBox="0 0 24 24">
+          <path
+            d="M3 6a2 2 0 012-2h4l2 2h8a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2z"
+          />
+        </symbol>
+        <symbol id="layers" viewBox="0 0 24 24">
+          <path d="M12 3l9 5-9 5-9-5zM3 13l9 5 9-5M3 17l9 5 9-5" />
+        </symbol>
+        <symbol id="cup" viewBox="0 0 24 24">
+          <path
+            d="M5 9h12v6a4 4 0 01-4 4H9a4 4 0 01-4-4zM17 10h2a2 2 0 010 5h-2M8 3v3M12 3v3"
+          />
+        </symbol>
+        <symbol id="user" viewBox="0 0 24 24">
+          <circle cx="12" cy="8" r="4" />
+          <path d="M4 21c0-4 4-6 8-6s8 2 8 6" />
+        </symbol>
+        <symbol id="chat" viewBox="0 0 24 24">
+          <path d="M21 12a8 8 0 01-11.7 7L4 20l1.2-4.6A8 8 0 1121 12z" />
+        </symbol>
+        <symbol id="mail" viewBox="0 0 24 24">
+          <rect x="3" y="5" width="18" height="14" rx="2" />
+          <path d="M3 7l9 6 9-6" />
+        </symbol>
+        <symbol id="moon" viewBox="0 0 24 24">
+          <path d="M20 14.5A8 8 0 019.5 4 8 8 0 1020 14.5z" />
+        </symbol>
+        <symbol id="award" viewBox="0 0 24 24">
+          <circle cx="12" cy="9" r="6" />
+          <path d="M8.5 14L7 22l5-3 5 3-1.5-8" />
+        </symbol>
+        <symbol id="spark" viewBox="0 0 24 24">
+          <rect x="4" y="4" width="16" height="16" rx="3" />
+          <path d="M9 10h.01M15 10h.01M9 15h6" />
+        </symbol>
+        <symbol id="brief" viewBox="0 0 24 24">
+          <rect x="3" y="7" width="18" height="13" rx="2" />
+          <path d="M9 7V5a2 2 0 012-2h2a2 2 0 012 2v2M3 13h18" />
+        </symbol>
+        <symbol id="chip" viewBox="0 0 24 24">
+          <rect x="6" y="6" width="12" height="12" rx="2" />
+          <path
+            d="M9 2v4m6-4v4M9 18v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4M10 10h4v4h-4z"
+          />
+        </symbol>
+        <symbol id="clock" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="9" />
+          <path d="M12 7v5l3 2" />
+        </symbol>
+        <symbol id="medal" viewBox="0 0 24 24">
+          <path
+            d="M12 2l2.4 2.4 3.4-.2.2 3.4L20.4 10 18 12.4l.2 3.4-3.4.2L12 18.4 9.6 16l-3.4.2-.2-3.4L3.6 10 6 7.6l-.2-3.4 3.4.2z"
+          />
+          <path d="M9 10l2 2 4-4" />
+        </symbol>
+        <symbol id="arrow" viewBox="0 0 24 24">
+          <path d="M7 17L17 7M8 7h9v9" />
+        </symbol>
+        <symbol id="dots" viewBox="0 0 24 24">
+          <path d="M5 12h.01M12 12h.01M19 12h.01" stroke-width="3" />
+        </symbol>
+      </defs>
+    </svg>
+
+    <aside class="side" aria-label="Profile">
+      <button
+        class="side-toggle"
+        type="button"
+        aria-label="Collapse sidebar"
+        aria-expanded="true"
+        title="Collapse sidebar"
+      >
+        <svg class="i" aria-hidden="true"><path d="M14 5l-7 7 7 7" /></svg>
+      </button>
+      <img
+        class="avatar"
+        src="images/profile.jpg"
+        alt="Profile photo of John Mark Mediano"
+      />
+      <div class="who">
+        JOHN MARK MEDIANO<svg class="badge" viewBox="0 0 24 24">
+          <path
+            d="M12 1l3 2.3 3.8-.2 1 3.7 3.2 2.1-1.3 3.6 1.3 3.6-3.2 2.1-1 3.7-3.8-.2L12 23l-3-2.3-3.8.2-1-3.7L1 15.1l1.3-3.6L1 7.9l3.2-2.1 1-3.7 3.8.2z"
+          />
+          <path
+            d="M8 12l3 3 5-6"
+            fill="none"
+            stroke="var(--btnt)"
+            stroke-width="2.2"
+          />
+        </svg>
+      </div>
+      <div class="handle">johnmarkmediano12345@gmail.com</div>
+      <div class="soc">
+        <a
+          href="https://www.facebook.com/share/14pjvfZ5aQA/"
+          aria-label="Facebook"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><b>f</b></a
+        >
+        <a
+          href="mailto:johnmarkmediano12345@gmail.com"
+          aria-label="Gmail"
+          title="Gmail"
+          ><b>G</b></a
+        >
+        <button type="button" class="themeBtn" aria-label="Toggle dark mode">
+          <svg class="i"><use href="#moon" /></svg>
+        </button>
+      </div>
+      <nav class="menu" aria-label="Sections">
+        <a class="on" href="#home" title="Home" aria-current="location"
+          ><svg class="i"><use href="#home-icon" /></svg
+          ><span class="menu-label">Home</span></a
+        >
+        <a href="#about" title="About"
+          ><svg class="i"><use href="#user" /></svg
+          ><span class="menu-label">About</span></a
+        >
+        <a href="#services" title="Services"
+          ><svg class="i"><use href="#layers" /></svg
+          ><span class="menu-label">Services</span></a
+        >
+        <a href="#projects" title="Projects"
+          ><svg class="i"><use href="#folder" /></svg
+          ><span class="menu-label">Projects</span></a
+        >
+        <a href="#credentials" title="Credentials"
+          ><svg class="i"><use href="#award" /></svg
+          ><span class="menu-label">Credentials</span></a
+        >
+        <a href="#showcase" title="AI Explorations"
+          ><svg class="i"><use href="#cup" /></svg
+          ><span class="menu-label">AI Explorations</span></a
+        >
+        <a href="#contact" title="Contact"
+          ><svg class="i"><use href="#chat" /></svg
+          ><span class="menu-label">Contact</span></a
+        >
+      </nav>
+      <div class="foot">
+        © <span data-current-year>2026</span><br />JOHN MARK MEDIANO. All rights
+        reserved.
+      </div>
+    </aside>
+
+    <main id="home">
+      <!-- mobile header -->
+      <div class="mob">
+        <div class="mh">
+          <img
+            class="avatar"
+            src="images/profile.jpg"
+            alt="Profile photo of John Mark Mediano"
+          />
+          <div>
+            <strong
+              >JOHN MARK MEDIANO<svg class="badge" viewBox="0 0 24 24">
+                <path
+                  d="M12 1l3 2.3 3.8-.2 1 3.7 3.2 2.1-1.3 3.6 1.3 3.6-3.2 2.1-1 3.7-3.8-.2L12 23l-3-2.3-3.8.2-1-3.7L1 15.1l1.3-3.6L1 7.9l3.2-2.1 1-3.7 3.8.2z"
+                />
+                <path
+                  d="M8 12l3 3 5-6"
+                  fill="none"
+                  stroke="var(--btnt)"
+                  stroke-width="2.2"
+                /></svg
+            ></strong>
+            <div class="ph profile-meta">
+              <span class="profile-email">johnmarkmediano12345@gmail.com</span>
+              <span>Web Developer</span>
+            </div>
+          </div>
+          <button
+            type="button"
+            class="more themeBtn"
+            aria-label="Toggle dark mode"
+          >
+            <svg class="i"><use href="#moon" /></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="top" id="content-start">
+        <div>
+          <h1>Designing. Developing. Automating.</h1>
+          <p class="ph headline-copy">
+            Web Developer – I build clean, functional, and engaging websites for brands, businesses, and individuals looking to establish their presence online.
+          </p>
+          <a class="work-link desktop-work-link" href="#projects"
+            >View selected work <svg class="i"><use href="#arrow" /></svg
+          ></a>
+          <a class="work-link mobile-work-link mob" href="#projects-m"
+            >View selected work <svg class="i"><use href="#arrow" /></svg
+          ></a>
+        </div>
+        <a class="cta" href="#contact"
+          >Get in touch <svg class="i"><use href="#arrow" /></svg
+        ></a>
+      </div>
+
+      <div class="stats">
+        <div>
+          <svg class="i"><use href="#brief" /></svg><b>3 yrs</b
+          ><small>Web development</small>
+        </div>
+        <div>
+          <svg class="i"><use href="#medal" /></svg><b>8</b
+          ><small>Projects completed</small>
+        </div>
+        <div>
+          <svg class="i"><use href="#clock" /></svg><b>UTC+8</b
+          ><small>Philippines</small>
+        </div>
+      </div>
+      <section class="bento" aria-label="Overview">
+        <article class="c ab" id="about">
+          <h2>
+            <span class="ic"
+              ><svg class="i"><use href="#user" /></svg></span
+            >About
+          </h2>
+          <p>
+            Hey, I'm John Mark, a Philippines-based web developer who turns
+            complex problems into intuitive websites and communication tools
+            that help people connect.
+          </p>
+          <div class="cards">
+            <img
+              class="card-photo-1"
+              src="images/1.jpg"
+              alt="John Mark sitting at a landmark"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="card-photo-2"
+              src="images/2.jpg"
+              alt="John Mark at an event in formal attire"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="card-photo-3"
+              src="images/3.jpg"
+              alt="John Mark outdoors in a garden"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </article>
+        <article class="c sv" id="services">
+          <h2>
+            <span class="ic"
+              ><svg class="i"><use href="#layers" /></svg></span
+            >Services
+          </h2>
+          <p>
+            I create responsive interfaces and full-stack web apps, from
+            real-time communication platforms to e-commerce dashboards and
+            task tools.
+          </p>
+          <ul class="sl">
+            <li>
+              <span class="ic"
+                ><svg class="i"><use href="#folder" /></svg></span
+              >Frontend development<span class="n">01</span>
+            </li>
+            <li>
+              <span class="ic"
+                ><svg class="i"><use href="#spark" /></svg></span
+              >Full-stack web applications<span class="n">02</span>
+            </li>
+            <li>
+              <span class="ic"
+                ><svg class="i"><use href="#user" /></svg></span
+              >Real-time communication<span class="n">03</span>
+            </li>
+            <li>
+              <span class="ic"
+                ><svg class="i"><use href="#layers" /></svg></span
+              >E-commerce dashboards<span class="n">04</span>
+            </li>
+            <li>
+              <span class="ic"
+                ><svg class="i"><use href="#cup" /></svg></span
+              >Task management tools<span class="n">05</span>
+            </li>
+          </ul>
+        </article>
+        <div class="mob projects-mobile">
+          <h2 class="mobile-section-title" id="projects-m">Selected Projects</h2>
+          <div class="ex projects-ex">
+            <article class="project-slide">
+              <div class="th">
+                <svg class="i"><use href="#chat" /></svg>
+              </div>
+              <small>01 Communication Platform</small>
+              <b>Communication Platform</b>
+              <span
+                >A real-time communication website designed to facilitate
+                seamless interaction between users. Built with modern web
+                technologies to ensure fast, reliable, and intuitive messaging
+                experiences.</span
+              >
+            </article>
+            <article class="project-slide">
+              <a
+                class="th project-thumb"
+                href="https://orynge.pages.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View the ORYNGE website"
+                ><img
+                  src="images/project1.png"
+                  alt="Preview of the ORYNGE digital creative services website"
+                  loading="lazy"
+                  decoding="async"
+              /></a>
+              <small>02 Live Website</small>
+              <b>ORYNGE</b>
+              <span
+                >Website for ORYNGE, a digital creative studio offering social
+                media management, content planning, visual editing, and
+                marketing support.</span
+              >
+              <a
+                class="project-link"
+                href="https://orynge.pages.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Live website</a
+              >
+              <a
+                class="project-link"
+                href="https://github.com/johnmarkmediano/orynge"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub repository</a
+              >
+            </article>
+            <article class="project-slide">
+              <div class="th">
+                <svg class="i"><use href="#chip" /></svg>
+              </div>
+              <small>03 Arduino</small>
+              <b>Air Quality Indicator</b>
+              <span>Arduino-based project for indicating air quality for school purposes.</span>
+            </article>
+          </div>
+        </div>
+        <article class="c p" id="projects">
+          <h2>
+            <span class="ic"
+              ><svg class="i"><use href="#folder" /></svg></span
+            >Selected Projects
+          </h2>
+          <div class="project-list">
+            <article class="project-entry">
+              <small>01 / COMMUNICATION</small>
+              <h3>Communication Platform</h3>
+              <p>
+                A real-time communication website designed to facilitate
+                seamless interaction between users. Built with modern web
+                technologies to ensure fast, reliable, and intuitive messaging
+                experiences.
+              </p>
+            </article>
+            <article class="project-entry project-feature">
+              <div>
+                <small>02 / LIVE WEBSITE</small>
+                <h3>ORYNGE</h3>
+                <p>
+                  Website for ORYNGE, a digital creative studio offering social
+                  media management, content planning, visual editing, and
+                  marketing support.
+                </p>
+                <a
+                  class="project-link"
+                  href="https://orynge.pages.dev/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Live website</a
+                >
+                <a
+                  class="project-link"
+                  href="https://github.com/johnmarkmediano/orynge"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub repository</a
+                >
+              </div>
+              <a
+                class="project-preview"
+                href="https://orynge.pages.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View the ORYNGE website"
+                ><img
+                  src="images/project1.png"
+                  alt="Preview of the ORYNGE digital creative services website"
+                  loading="lazy"
+                  decoding="async"
+              /></a>
+            </article>
+            <article class="project-entry">
+              <small>03 / ARDUINO</small>
+              <h3>Air Quality Indicator</h3>
+              <p>
+                Arduino-based project for indicating air quality for school
+                purposes.
+              </p>
+            </article>
+          </div>
+        </article>
+        <div class="tools">
+          <div class="lab"><small>DAILY DRIVERS</small>Tools I work with</div>
+          <div class="tl" tabindex="0" aria-label="Daily driver tools">
+            <div class="driver-track">
+              <div class="driver-group">
+                <div class="tool">
+                  <span class="tb tool-codex">C</span>Codex
+                </div>
+                <div class="tool">
+                  <span class="tb tool-cursor">▲</span>Cursor
+                </div>
+                <div class="tool">
+                  <span class="tb tool-hermes">H</span>Hermes AI
+                </div>
+                <div class="tool">
+                  <span class="tb tool-vscode">VS</span>VS Code
+                </div>
+                <div class="tool">
+                  <span class="tb tool-antigravity">A</span>Antigravity Labs
+                </div>
+                <div class="tool">
+                  <span class="tb tool-claude">C</span>Claude
+                </div>
+                <div class="tool">
+                  <span class="tb tool-grok">X</span>Grok
+                </div>
+                <div class="tool">
+                  <span class="tb tool-chatgpt">AI</span>ChatGPT
+                </div>
+                <div class="tool">
+                  <span class="tb tool-gemini">G</span>Gemini
+                </div>
+                <div class="tool">
+                  <span class="tb tool-cloudflare">C</span>Cloudflare
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            type="button"
+            class="motion-toggle"
+            aria-pressed="false"
+            aria-label="Pause daily drivers animation"
+          >
+            Pause
+          </button>
+        </div>
+        <div class="mob mobile-tools">
+          <div class="driver-heading">
+            <h2 class="mobile-section-title">Tools I work with</h2>
+            <button
+              type="button"
+              class="motion-toggle"
+              aria-pressed="false"
+              aria-label="Pause daily drivers animation"
+            >
+              Pause
+            </button>
+          </div>
+          <div class="mt" tabindex="0" aria-label="Daily driver tools">
+            <div class="driver-track">
+              <div class="driver-group">
+                <div>
+                  <div class="tb tool-codex">C</div>
+                  Codex
+                </div>
+                <div>
+                  <div class="tb tool-cursor">▲</div>
+                  Cursor
+                </div>
+                <div>
+                  <div class="tb tool-hermes">H</div>
+                  Hermes AI
+                </div>
+                <div>
+                  <div class="tb tool-vscode">VS</div>
+                  VS Code
+                </div>
+                <div>
+                  <div class="tb tool-antigravity">A</div>
+                  Antigravity Labs
+                </div>
+                <div>
+                  <div class="tb tool-claude">C</div>
+                  Claude
+                </div>
+                <div>
+                  <div class="tb tool-grok">X</div>
+                  Grok
+                </div>
+                <div>
+                  <div class="tb tool-chatgpt">AI</div>
+                  ChatGPT
+                </div>
+                <div>
+                  <div class="tb tool-gemini">G</div>
+                  Gemini
+                </div>
+                <div>
+                  <div class="tb tool-cloudflare">C</div>
+                  Cloudflare
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <article class="c cr" id="credentials">
+          <h2>
+            <span class="ic"
+              ><svg class="i"><use href="#award" /></svg></span
+            >Credentials &amp; Coursework
+          </h2>
+          <p>
+            IT coursework and hands-on practice in:
+          </p>
+          <div class="credential-content">
+            <div class="credential-ribbon" aria-hidden="true">
+              <span class="credential-ribbon-tail tail-left"></span>
+              <span class="credential-ribbon-tail tail-right"></span>
+              <span class="credential-seal">
+                <svg class="i"><use href="#award" /></svg>
+              </span>
+            </div>
+            <div class="credential-details">
+              <span class="credential-label">COURSEWORK</span>
+              <ul class="credential-topics" aria-label="Coursework topics">
+                <li>Web development</li>
+                <li>APIs</li>
+                <li>Databases</li>
+                <li>Real-time apps</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <article class="c ai" id="showcase">
+          <h2>
+            <span class="ic"
+              ><svg class="i"><use href="#spark" /></svg></span
+            >AI Explorations
+          </h2>
+          <p>
+            Ideas for future AI features—not yet built:
+          </p>
+          <ul class="ai-focus">
+            <li>Communication assistants</li>
+            <li>Task workflow support</li>
+            <li>E-commerce insights</li>
+          </ul>
+        </article>
+        <article
+          class="c contact-card"
+          id="contact"
+          aria-labelledby="contact-title"
+        >
+          <h2 id="contact-title">
+            <span class="ic"><svg class="i"><use href="#chat" /></svg></span>
+            Contact
+          </h2>
+          <p>Feel free to reach out by phone, email, or Facebook.</p>
+          <div class="contact-links">
+            <a href="tel:09054789481">
+              <span>Phone</span>
+              <strong>09054789481</strong>
+            </a>
+            <a href="mailto:johnmarkmediano12345@gmail.com">
+              <span>Email</span>
+              <strong>johnmarkmediano12345@gmail.com</strong>
+            </a>
+            <a
+              href="https://www.facebook.com/share/14pjvfZ5aQA/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>Facebook</span>
+              <strong>View my profile</strong>
+            </a>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <nav class="bar mob" aria-label="Primary">
+      <a class="on" href="#home" aria-current="location"
+        ><svg class="i"><use href="#home-icon" /></svg>Home</a
+      >
+      <a href="#projects-m"
+        ><svg class="i"><use href="#folder" /></svg>Work</a
+      >
+      <a class="fab" href="#contact" aria-label="Contact"
+        ><svg class="i"><use href="#mail" /></svg
+      ></a>
+      <a href="#services"
+        ><svg class="i"><use href="#layers" /></svg>Services</a
+      >
+      <a href="#about"
+        ><svg class="i"><use href="#user" /></svg>About</a
+      >
+    </nav>
+
+    <script src="Portfolio.js" defer></script>
+  </body>
+</html>
